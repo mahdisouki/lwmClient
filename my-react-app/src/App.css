@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+ 
+  
+}
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  margin-left: -30px;
+  cursor: pointer;
+}
+.button-color{
+  background-color: #8dc044 !important;
+  border-color: #8dc044 !important;
+}
+a{
+  text-decoration: none !important;
+  color: aliceblue !important;
+}
+a:hover{
+  color:#8dc044 !important;
+}
+svg{
+  vertical-align: baseline !important
+}
+body{
+  padding-top: 80px;
+}
+
+.tit>h1{
+  text-shadow: 
+  -2px -2px 0 black,  
+   2px -2px 0 black,
+  -2px  2px 0 black,
+   2px  2px 0 black !important; 
+}
+  .llm{
+    background-color: #8dc044 !important;
+    border-color: #8dc044 !important;
+
+  }
+  .llm:hover{
+    background-color: #fff !important;
+    border-color: #8dc044 !important;
+    color: #8dc044 !important;
+  }
+  .llmm{
+    background-color: #6FBBDB !important;
+    border-color: #6FBBDB !important;
+
+  }
+  .llmm:hover{
+    background-color: #fff !important;
+    border-color: #6FBBDB !important;
+    color: #6FBBDB !important;
+  }

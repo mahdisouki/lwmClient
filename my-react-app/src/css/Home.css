@@ -1,0 +1,294 @@
+/* App.css */
+
+/* Hero Section */
+.offer-section {
+    background-image: url("../assets//home-banner-bg.webp"); /* Light Blue Background */
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+  
+  .offer-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* General Styles */
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services-section {
+    padding: 30px 0;
+  }
+  
+  .service-card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 250px;
+    color: #000000 !important;
+  }
+  
+  .service-card:hover {
+    transform: none !important;
+    color: #8dc044 !important;
+    border-color: #8dc044;
+  }
+  
+  .service-card img {
+    margin: 0 auto;
+    width:140px ;
+    position: relative !important;
+    top: -35px;
+    mix-blend-mode: multiply;
+  }
+  
+  .why-choose-us-section {
+    padding: 40px 0;
+    background-color: #dff0d8;
+  }
+  
+  .follow-us-section {
+    padding: 30px 0;
+  }
+  
+  .follow-us-section img {
+    margin-bottom: 15px;
+  }
+  
+  .blog-section {
+    padding: 30px 0;
+    background-color: #8dc044;
+  }
+  .custom-placeholder::placeholder {
+    color: #c1bdbd; /* Change this to your desired placeholder color */
+    opacity: 0.5; /* Ensures placeholder color is solid */
+  }
+
+  .dropdown-menu {
+    background-color: #263238 !important; 
+    transition: opacity 0.3s ease;
+  }
+  
+  .navbar-nav .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .navbar-nav .dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  .dropdown-item:hover {
+    background-color: #263238 !important;
+    color: #8dc044 !important;
+  }
+/* Default color (black) */
+.logo-img {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  /* Hover color (example: red) */
+  .logo-img:hover {
+    filter: brightness(0) saturate(100%) invert(71%) sepia(23%) saturate(552%) hue-rotate(47deg) brightness(95%) contrast(90%);
+  }
+
+.fff{
+    padding: 15px 50px !important;
+    font-size: 20px !important;
+}
+
+  .fff:hover{
+    background: transparent !important;
+  }
+
+/* Custom Scrollbar */
+.custom-scroll {
+  overflow-y: auto;
+  max-height: 350px;
+  padding-right: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #8dc044 transparent; /* For Firefox */
+}
+
+/* For Webkit Browsers (Chrome, Safari, Edge) */
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Remove Scrollbar Buttons (Top & Bottom) */
+.custom-scroll::-webkit-scrollbar-button {
+  display: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  background: transparent !important;
+  
+}
+.custom-scroll::-webkit-scrollbar-button:single-button {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.custom-scroll {
+  -ms-overflow-style: none;
+}
+/* Track Style */
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent !important;
+  margin: 2px 0 !important; /* Removes the extra space that may appear on top/bottom */
+}
+
+/* Thumb Style */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #8dc044 !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+/* Hide Scrollbar Corner for cleaner look */
+.custom-scroll::-webkit-scrollbar-corner {
+  background-color: white !important;
+}
+
+/* Optional: Hide scrollbar entirely in Firefox */
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #263238 white;
+}
+
+
+
+  
+  /* Custom Button Styles */
+  .custom-button {
+    background-color: #f1f1f1 !important;
+    color: #263238 !important;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px !important;
+    text-align: left;
+    margin-bottom: 12px;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+  
+  /* Button text styling */
+  .button-text {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  /* Active Button Style */
+  .custom-button.active {
+    background-color: #263238 !important;
+    color: white !important;
+  }
+  
+  /* Button Hover Effect */
+  .custom-button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  
+  /* Icon Wrapper for Consistency */
+  .custom-icon-wrapper {
+    padding: 10px;
+    background-color: #263238 !important;
+    color: #8dc044;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  
+  /* Card Styling */
+  .custom-card {
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .custom-scroll {
+      max-height: 200px;
+    }
+  
+    .custom-button {
+      padding: 10px;
+    }
+  }
+  /* Hide default radio */
+input[type="radio"] {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    background-color: #fff !important;
+    border: 2px solid #ccc !important;
+    padding: 8px !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    position: relative !important;
+  }
+  
+  /* Style when checked */
+  input[type="radio"]:checked {
+    background-color: #263238 !important; /* Dark color when checked */
+   
+  }
+  
+  /* Add a custom dot when checked */
+  input[type="radio"]:checked::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 3px !important;
+    left: 3px !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background: #8dc044 !important;
+  }
+
+@media (min-width: 768px) {
+  .custom-scroll > .d-flex > div {
+    width: 100% !important;
+  }
+}
+
+.offer-social-icons a.offer-social-link {
+  color: white;
+  transition: color 0.2s;
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.offer-social-icons a.offer-social-link:last-child {
+  margin-right: 0;
+}
+.offer-social-icons a.offer-social-link:hover {
+  color: black;
+}
+ 

@@ -1,0 +1,98 @@
+.sticky-navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    background-color: #263238 !important;
+    padding: 10px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .header-call{
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    font-size: 0;
+    width: 24px;
+    height: 25px;
+  }
+.cartt{
+  font-size: 0;
+    background: url(../assets/Bag.webp);
+    width: 28px;
+    height: 28px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+  .no-wrap {
+    font-size: 0.95rem;
+  }
+
+  /* Mobile Navigation Styles */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-dropdown {
+    font-weight: 600 !important;
+    padding: 12px 0 !important;
+    margin: 4px 0 !important;
+    font-size: 1.1rem !important;
+  }
+
+  .navbar-nav .dropdown-menu {
+    padding: 8px 0 !important;
+  }
+
+  .navbar-nav .dropdown-item {
+    padding: 10px 16px !important;
+    font-weight: 500 !important;
+  }
+}
+
+.navbar-icons-mobile {
+  margin-left: auto;
+  gap: 0.5rem;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .navbar-icons-mobile {
+    display: none !important;
+  }
+}
+
+.mobile-search-modal {
+  max-width: 95vw;
+  border-radius: 1.2rem;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+}
+.mobile-search-modal .modal-content {
+  border-radius: 1.2rem;
+  background: #fff;
+}
+
+.header-social-icons a.header-social-link {
+  color: white;
+  transition: color 0.2s;
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header-social-icons a.header-social-link:last-child {
+  margin-right: 0;
+}
+.header-social-icons a.header-social-link:hover {
+  color: black;
+}
+
+.cart-icon-img {
+  transition: filter 0.3s;
+}
+.cart-icon-img:hover {
+  filter: brightness(0) saturate(100%) invert(71%) sepia(23%) saturate(552%) hue-rotate(47deg) brightness(95%) contrast(90%) !important;
+}

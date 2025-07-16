@@ -1,0 +1,45 @@
+.cart-section {
+    padding: 50px 0;
+  }
+  
+  .cart-section h2 {
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .list-group-item {
+    padding: 15px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  button {
+    border-radius: 5px;
+  }
+  
+  button:focus {
+    box-shadow: none;
+  }
+  
+  /* FAQ improvements */
+  .faq-section p,
+  .faq-section li {
+    margin-bottom: 0.75rem;
+  }
+  .faq-section a {
+    color: #27ae60;
+    text-decoration: underline;
+    word-break: break-all;
+    font-weight: 500;
+  }
+  .faq-section .accordion-button,
+  .faq-section .accordion-header {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  .faq-section strong {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,16 @@
+/* Default card style */
+.hover-glow {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: #fafafa !important;
+    border: 1px solid #ededed;
+    border-radius: 20px;
+  }
+  
+  /* Glow effect on hover */
+  .hover-glow:hover {
+    box-shadow: 0px 0px 15px 5px #3754aa1a !important;
+    background-color: #ffffff;
+    /* transform: translateY(-5px); Slight lift on hover */
+
+    cursor: pointer;
+  }
